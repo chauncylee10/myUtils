@@ -1,0 +1,1 @@
+docker run -it --name cuda --gpus all -v /d/workdir:/d/workdir -w /d/workdir nvidia/cuda:11.4.0-cudnn8-devel-ubuntu18.04 /bin/bash
